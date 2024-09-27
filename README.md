@@ -3,27 +3,30 @@
 This project aims to build a complete fraud detection system using anomaly detection techniques. Specifically, we use the Isolation Forest algorithm to detect potential fraud cases and then integrate a pre-trained LLM (Large Language Model) to provide natural language explanations for the flagged transactions. The system is designed to improve fraud detection and enhance interpretability for end users.
 
 ## Project Overview
-- **Hash:** `#EndToEndFraudDetection #AnomalyDetection #LLMExplanations`
 
 1. **Data Loading**
+
    The first step of the process involves loading the dataset into the environment and exploring its structure. For this project, we have used a public dataset containing transaction records, with labeled fraudulent and non-fraudulent transactions.
 
    Purpose:
    This step is essential to understand the dataset you're working with, allowing you to prepare it for the machine learning pipeline. You'll identify key features and check for any potential issues, such as missing or inconsistent data.
 
 2. **Data Preprocessing**
-   Preprocessing the data is a critical step before feeding it into the model. In this phase, we handle any inconsistencies and transform the data into a form suitable for machine learning models.
+
+    Preprocessing the data is a critical step before feeding it into the model. In this phase, we handle any inconsistencies and transform the data into a form suitable for machine learning models.
 
    Purpose:
    Data preprocessing ensures that the data is clean and properly formatted. Machine learning models are sensitive to missing values and unscaled features, so this step is critical for the model's performance and accuracy.
 
 3. **Train-Test Split**
-   To properly evaluate the performance of the model, the dataset is split into a training set and a test set. This allows us to train the model on one portion of the data and then validate its performance on unseen data.
+
+    To properly evaluate the performance of the model, the dataset is split into a training set and a test set. This allows us to train the model on one portion of the data and then validate its performance on unseen data.
 
    Purpose:
    Splitting the data allows us to prevent overfitting and objectively evaluate the model’s performance. The model is trained on the training set and then tested on the holdout test set to measure how well it generalizes to new data.
 
 4. **Train Isolation Forest Model**
+
    The Isolation Forest algorithm is an unsupervised learning method designed to detect anomalies. Since fraud is a rare event, anomaly detection is a great fit for this task.
 
    Purpose:
