@@ -6,10 +6,8 @@ This project aims to build a complete fraud detection system using anomaly detec
 
 1. **Data Loading**
 
-   The first step of the process involves loading the dataset into the environment and exploring its structure. For this project, we have used a public dataset containing transaction records, with labeled fraudulent and non-fraudulent transactions.
+   We begin by loading and exploring the Credit Card Transactions Fraud Detection Dataset(https://www.kaggle.com/datasets/kartik2112/fraud-detection/data) from Kaggle. This dataset contains transaction records with labels for fraudulent and non-fraudulent transactions, which we load using pandas. This step allows us to understand the data's structure and identify key features
 
-   Purpose:
-   This step is essential to understand the dataset you're working with, allowing you to prepare it for the machine learning pipeline. You'll identify key features and check for any potential issues, such as missing or inconsistent data.
 
 2. **Data Preprocessing**
 
