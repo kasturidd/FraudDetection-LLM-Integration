@@ -1,5 +1,5 @@
 # End-to-End Fraud Detection System with LLM Explanations
-
+PyPI version
 This project aims to build a complete fraud detection system using anomaly detection techniques. Specifically, we use the Isolation Forest algorithm to detect potential fraud cases and then integrate a pre-trained LLM (Large Language Model) to provide natural language explanations for the flagged transactions. The system is designed to improve fraud detection and enhance interpretability for end users.
 
 ## Project Overview
