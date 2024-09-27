@@ -6,31 +6,32 @@ This project aims to build a complete fraud detection system using anomaly detec
 
 1. **Data Loading**
 
-   We begin by loading and exploring the Credit Card Transactions Fraud Detection Dataset(https://www.kaggle.com/datasets/kartik2112/fraud-detection/data) from Kaggle. This dataset contains transaction records with labels for fraudulent and non-fraudulent transactions, which we load using pandas. This step allows us to understand the data's structure and identify key features
-
+   We begin by loading and exploring the Credit Card Transactions Fraud Detection Dataset from Kaggle. This dataset contains transaction records with labels for fraudulent and non-fraudulent transactions, which we load using pandas. This step allows us to understand the data's structure and identify key features
+Download the dataset directly from Kaggle due to its large file size (https://www.kaggle.com/datasets/kartik2112/fraud-detection/data).
 
 2. **Data Preprocessing**
 
     Preprocessing the data is a critical step before feeding it into the model. In this phase, we handle any inconsistencies and transform the data into a form suitable for machine learning models.
 
-   Purpose:
-   Data preprocessing ensures that the data is clean and properly formatted. Machine learning models are sensitive to missing values and unscaled features, so this step is critical for the model's performance and accuracy.
+   Handle Missing Values: Checked for and imputed any missing data points.
+Encoding Categorical Variables: Transformed categorical variables (e.g., gender) into numerical formats using techniques such as one-hot encoding or label encoding.
+Scaling Numerical Features: Scaled numerical features (like transaction amounts) to normalize the data. This step ensures that no feature disproportionately affects the model due to its scale.
 
-3. **Train-Test Split**
+4. **Train-Test Split**
 
     To properly evaluate the performance of the model, the dataset is split into a training set and a test set. This allows us to train the model on one portion of the data and then validate its performance on unseen data.
 
    Purpose:
    Splitting the data allows us to prevent overfitting and objectively evaluate the model’s performance. The model is trained on the training set and then tested on the holdout test set to measure how well it generalizes to new data.
 
-4. **Train Isolation Forest Model**
+5. **Train Isolation Forest Model**
 
    The Isolation Forest algorithm is an unsupervised learning method designed to detect anomalies. Since fraud is a rare event, anomaly detection is a great fit for this task.
 
    Purpose:
    The Isolation Forest algorithm isolates anomalies (fraudulent transactions) by randomly selecting features and partitioning the data. It is particularly effective in scenarios where normal data points vastly outnumber anomalies, as is the case with fraud detection.
 
-5. **LLM Integration for Explanation**
+6. **LLM Integration for Explanation**
 
     After the fraud detection model identifies suspicious transactions, we use a pre-trained Large Language Model (LLM) (such as GPT-3.5 or GPT-4) to provide human-readable explanations for each flagged transaction. This step enhances transparency and helps end-users better understand why a transaction was considered fraudulent.
 
