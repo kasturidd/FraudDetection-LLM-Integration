@@ -1,6 +1,6 @@
 # End-to-End Fraud Detection System with LLM Explanations
 
-Welcome to my project on building an advanced fraud detection system that leverages cutting-edge techniques in Artificial Intelligence (AI) and Large Language Models (LLMs), specifically leveraging OpenAI's technology.! 🚀
+Welcome to my project on building an advanced fraud detection system that leverages cutting-edge techniques in Artificial Intelligence (AI) and Large Language Models (LLMs), specifically leveraging OpenAI's technology. 🚀
 
 ## Project Overview
 The goal of this project is to improve fraud detection accuracy and transparency. It starts with the Isolation Forest algorithm, which identifies unusual transactions that may indicate fraud. What sets this system apart is the integration of a pre-trained LLM, which generates clear, natural language explanations for flagged transactions. This makes fraud detection easier to understand and more actionable.
