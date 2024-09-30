@@ -1,10 +1,20 @@
 # End-to-End Fraud Detection System with LLM Explanations
 
-This project aims to build a complete fraud detection system using LLM(Large Language Model) - OpenAI technique. Specifically, we use the Isolation Forest algorithm to detect potential fraud cases and then integrate a pre-trained LLM (Large Language Model) to provide natural language explanations for the flagged transactions. The system is designed to improve fraud detection and enhance interpretability for end users.
-
-This project is just an
+Welcome to my project on building an advanced fraud detection system that leverages cutting-edge techniques in Artificial Intelligence (AI) and Large Language Models (LLMs)! 🚀
 
 ## Project Overview
+The goal of this project is to improve fraud detection accuracy and transparency. It starts with the Isolation Forest algorithm, which identifies unusual transactions that may indicate fraud. What sets this system apart is the integration of a pre-trained LLM, which generates clear, natural language explanations for flagged transactions. This makes fraud detection easier to understand and more actionable.
+
+## Key Features
+Isolation Forest to detect outlier transactions (potential fraud).
+LLM integration to provide natural language explanations for each flagged transaction.
+Utilizes a Kaggle credit card fraud dataset for real-world training and validation.
+Flexible to work with other models like logistic regression to optimize false positive rates (FPR).
+
+## Why This Matters
+By explaining the logic behind flagged transactions, this system helps teams quickly make informed decisions and adapt their strategies, reducing fraud losses while improving efficiency.
+
+## Project flow
 
 1. **Data Loading**
 
