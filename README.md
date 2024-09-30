@@ -6,7 +6,7 @@ This project aims to build a complete fraud detection system using anomaly detec
 
 1. **Data Loading**
 
-   We begin by loading and exploring the Credit Card Transactions Fraud Detection Dataset from Kaggle. This dataset contains transaction records with labels for fraudulent and non-fraudulent transactions, which we load using pandas. This step allows us to understand the data's structure and identify key features
+   I begin by loading and exploring the Credit Card Transactions Fraud Detection Dataset from Kaggle. This dataset contains transaction records with labels for fraudulent and non-fraudulent transactions, which we load using pandas. This step allows us to understand the data's structure and identify key features
 Download the dataset directly from Kaggle due to its large file size (https://www.kaggle.com/datasets/kartik2112/fraud-detection/data).
 
 2. **Data Preprocessing**
