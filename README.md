@@ -64,6 +64,9 @@ Scaling Numerical Features: Scaled numerical features (like transaction amounts)
    Purpose:
    Presenting the flagged transactions with explanations provides actionable insights for users or financial analysts. Additionally, performance metrics give stakeholders a quantitative understanding of how well the system detects fraud.
 
+## What’s Next?
+There’s more to come as I continue to enhance the accuracy and adaptability of this system. Stay tuned!
+
 ## Conclusion
 
 This project demonstrates how machine learning, combined with natural language processing (NLP), can be used to build a sophisticated fraud detection system. By using Isolation Forest for anomaly detection and integrating LLMs for generating explanations, the system offers not only accurate fraud detection but also meaningful insights into the decisions made by the model.
