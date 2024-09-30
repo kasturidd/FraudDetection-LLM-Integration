@@ -41,7 +41,7 @@ Scaling Numerical Features: Scaled numerical features (like transaction amounts)
 7. **Evaluation**
 8. 
    Once the model has flagged potentially fraudulent transactions, we need to assess its performance. For this, we use standard classification evaluation metrics.
-
+   I will work on improving the model accuracy in future scope as the goal here is to learn how LLMs can be used in fraud detection.
    Purpose:
    Evaluation metrics are crucial in determining the effectiveness of the model. In fraud detection, we are particularly interested in precision (how many flagged transactions were actually fraudulent) and recall (how many fraudulent transactions were successfully identified). The F1-score combines both metrics into a single value, providing a balanced measure of the model’s performance.
 
