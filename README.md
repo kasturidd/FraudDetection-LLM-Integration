@@ -12,7 +12,7 @@ The goal of this project is to improve fraud detection accuracy and transparency
 * Flexible to work with other models like logistic regression to optimize false positive rates (FPR).
 
 ## Why This Matters
-By explaining the logic behind flagged transactions, this system helps teams quickly make informed decisions and adapt their strategies, reducing fraud losses while improving efficiency.
+By explaining the logic behind flagged transactions, this system helps teams quickly make informed decisions and adapt their strategies or writing rule, reducing fraud losses while improving efficiency.
 
 ## Project flow
 
