@@ -6,10 +6,10 @@ Welcome to my project on building an advanced fraud detection system that levera
 The goal of this project is to improve fraud detection accuracy and transparency. It starts with the Isolation Forest algorithm, which identifies unusual transactions that may indicate fraud. What sets this system apart is the integration of a pre-trained LLM, which generates clear, natural language explanations for flagged transactions. This makes fraud detection easier to understand and more actionable.
 
 ## Key Features
-Isolation Forest to detect outlier transactions (potential fraud).
-LLM integration to provide natural language explanations for each flagged transaction.
-Utilizes a Kaggle credit card fraud dataset for real-world training and validation.
-Flexible to work with other models like logistic regression to optimize false positive rates (FPR).
+* Isolation Forest to detect outlier transactions (potential fraud).
+* LLM integration to provide natural language explanations for each flagged transaction.
+* Utilizes a Kaggle credit card fraud dataset for real-world training and validation.
+* Flexible to work with other models like logistic regression to optimize false positive rates (FPR).
 
 ## Why This Matters
 By explaining the logic behind flagged transactions, this system helps teams quickly make informed decisions and adapt their strategies, reducing fraud losses while improving efficiency.
